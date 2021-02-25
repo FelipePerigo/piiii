@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+}
+
+.createcontent {
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.createbox {
+    background-color: #ffffff09;
+    padding: 10px;
+    width: 700px;
+    height: 700px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.createbox h2 {
+    font-size: 34px;
+    color: #68b0ab;
+}
+
+.createbox p {
+    font-size: 21px;
+    font-weight: 100;
+    color: #68b0ab;
+}
+
+.createbox form {
+    align-items: center;
+}
+
+.createbox form input {
+    border: none;
+    width: 375px;
+    height: 25px;
+    margin: 5px;
+    font-size: 21px;
+    outline: 0;
+}
+
+
+.createbox form label i {
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.createbox form .btn {
+    background-color: #68b0ab;
+    border: 2px solid #68b0ab;
+}
+
+
+
+.createtexto {
+    background-color: #68b0ab;
+    width: 500px;
+    height: 720px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.createtexto h2 {
+    font-size: 34px;
+    color: white;
+}
+
+.createtexto p {
+    font-size: 21px;
+    font-weight: 100;
+    color: white;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 10px;
+    color: white;
+    transition: 0.3s;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+.logincontent {
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loginbox {
+    background-color: #ffffff09;
+    padding: 10px;
+    width: 700px;
+    height: 700px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbox h2 {
+    font-size: 34px;
+    color: #68b0ab;
+}
+
+.loginbox p {
+    font-size: 21px;
+    font-weight: 100;
+    color: #68b0ab;
+}
+
+.loginbox form {
+    align-items: center;
+}
+
+input {
+    border: none;
+    width: 375px;
+    height: 25px;
+    margin: 5px;
+    font-size: 21px;
+    outline: 0;
+    background-color: #d2d8d7;
+}
+
+label {
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    background-color: #d2d8d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.loginbox form label i {
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.loginbox form .btn {
+    background-color: #68b0ab;
+    border: 2px solid #68b0ab;
+    color: white;
+    transition: 0.3s;
+}
+
+.loginbox form .btn:hover {
+    background-color: #ecf4f3;
+    border: 2px solid #68b0ab;
+    color: #68b0ab;
+}
+
+
+.nome {
+    font-size: 8px;
+}
+
+
+
+.logintexto {
+    background-color: #68b0ab;
+    width: 500px;
+    height: 720px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logintexto h2 {
+    font-size: 34px;
+    color: white;
+}
+
+.logintexto p {
+    font-size: 21px;
+    font-weight: 100;
+    color: white;
+}
+
+.loginbox form a {
+    color: #68b0ab;
+    margin-top: 5px;
+}
+
+.logintexto .btn:hover {
+    background-color: #ecf4f3;
+    color: #68b0ab;
+}

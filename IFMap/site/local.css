@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+ 
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 75vw;
+    height: 75vh;
+    border-radius: 21px;
+    display: flex;
+    background-color: #03DAC5;
+}
+
+.foto {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525;
+}
+
+.foto img {
+    width: 25vw;
+    height: 50vh;
+    border-radius: 21px;
+}
+
+
+
+.desc {
+    height: 100%;
+    width: 50%;
+    background-color:  #252525;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 50%;
+}
+
+
+
+
+
+
+label {
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d2d8d7;
+    border-radius: 50px;
+}
+
+input {
+    border: none;
+    width: 375px;
+    height: 25px;
+    font-size: 21px;
+    outline: 0;
+    background-color: #d2d8d7;
+    margin-left: 15px;
+}
+
+
+.desc form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+}
+
+.chat {
+    display: flex;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
+   border-radius: 21px;
+    width: 70%;
+    height: 70%;
+    padding: 12px;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 10px;
+    
+}
+
+.voltar {
+    position: absolute;
+    background-color:  #03DAC5;
+    width: 50px;
+    height: 50px;
+    top: 60px;
+    left: 60px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+.buttons {
+    display: flex;
+}
+
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #03DAC5;
+    margin-top: 10px;
+    color: #68b0ab;
+    transition: 0.3s;
+    outline: none;
+    font-size: 15px;
+    margin-right: 32px;
+}
+
+.btn:hover {
+    cursor: not-allowed;
+    background-color: #03DAC5;
+    border: 2px solid #121212;
+    color: #121212;
+  
+}
+
+.intru {
+    display: flex;
+}
+
+.instru h2 {
+    color: white;
+    margin: 50px;
+}
+
+.titulo {
+    font-size: 51px;
+    color: white;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e7b5d0c69.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="logincontent" id="telalogin">
+            <div class="logintexto">
+                <h2>Bem-vindo aluno ;)</h2>
+                <p>Você é novo por aqui?</p>
+                <p>Crie sua conta!</p>
+                <a href="cadastro.html"><button class="btn">Cadastre-se</button></a>
+            </div>
+            <div class="loginbox">
+                <h2>Olá, você de novo por aqui? :D</h2>
+                <p>use suas informações!</p>
+                <form>
+                    <label>
+                        <i class="fas fa-envelope"></i>
+                        <input type="text" class="matricula" placeholder="Matricula">
+                    </label>
+                    <label>
+                        <i class="fas fa-key"></i>
+                        <input type="password" class="pass" placeholder="Senha">
+                    </label>
+                 <a href="site/index.html">   <button class="btn login">Login</button></a>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+<script> 
+const btn = document.querySelector(".login")
+const senha = document.querySelector(".pass")
+const matricula = document.querySelector(".matricula")
+
+btn.addEventListener('click', async () => {
+    const res = await axios.post('http://localhost:3000/login', {
+        matricula: matricula.value,
+        senha: senha.value
+    })
+    return console.log(res)
+})
+</script>
+
+</html>

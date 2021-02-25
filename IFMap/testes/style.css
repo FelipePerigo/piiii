@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f313d;
+}
+
+.quadrado {
+    width: 100px;
+    height: 400px;
+    background: #ec3d5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.triangulo1{
+    position: absolute;
+    border-top: 200px solid #348692;
+    border-right: 300px solid transparent;
+}
+
+.triangulo2{
+    position: absolute;
+    top: 450px;
+    z-index: -1;
+    border-top: 170px solid #348692;
+    border-right: 220px solid transparent;
+}
